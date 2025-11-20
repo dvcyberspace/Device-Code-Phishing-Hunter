@@ -1,0 +1,9 @@
+{
+  "alice@corp.com": ["203.0.113.10"],
+  "bob@corp.com": ["203.0.113.20"],
+  "charlie@corp.com": ["192.168.1.5"],
+  "david@corp.com": ["203.0.113.30"],
+  "eve@corp.com": ["203.0.113.40"],
+  "frank@corp.com": ["203.0.113.50"],
+  "_global": []
+}
