@@ -9,28 +9,16 @@
 2025-10-25 09:40:00 | alice@corp.com | 203.0.113.10 | TeamsLogin | Success
 2025-10-25 09:45:00 | frank@corp.com | 203.0.113.50 | PasswordLogin | Success
 2025-10-25 09:50:00 | alice@corp.com | 203.0.113.10 | OneDriveSync | Success
-
-# --- START OF SUSPICIOUS DEVICE CODE PHISHING FLOW FOR ALICE ---
 2025-10-25 10:00:00 | alice@corp.com | 198.51.100.5 | DeviceCodeStart | Success
-# --- Phishing Email sent to Alice, she clicks a link ---
 2025-10-25 10:00:15 | alice@corp.com | N/A | EmailSent | Success
-# --- Alice (victim) enters the code on the legitimate Microsoft site from her known IP ---
 2025-10-25 10:02:00 | alice@corp.com | 203.0.113.10 | DeviceCodeSuccess | Success
-# --- Attack is complete, attacker now has a session/token ---
 2025-10-25 10:03:00 | alice@corp.com | 198.51.100.5 | TokenUsage | Success
-# --- END OF SUSPICIOUS DEVICE CODE PHISHING FLOW ---
-
 2025-10-25 10:05:00 | bob@corp.com   | 203.0.113.20 | SharePointAccess | Success
 2025-10-25 10:10:00 | alice@corp.com | 203.0.113.10 | PasswordLogin | Success
 2025-10-25 10:15:00 | charlie@corp.com | 192.168.1.5 | VPNConnect | Success
 2025-10-25 10:20:00 | david@corp.com | 203.0.113.30 | EmailAccess | Success
-
-# --- START OF NORMAL DEVICE CODE FLOW FOR BOB ---
 2025-10-25 10:25:00 | bob@corp.com   | 203.0.113.20 | DeviceCodeStart | Success
-# --- Bob (legit user) starts and completes from his known IP ---
 2025-10-25 10:26:30 | bob@corp.com   | 203.0.113.20 | DeviceCodeSuccess | Success
-# --- END OF NORMAL DEVICE CODE FLOW ---
-
 2025-10-25 10:30:00 | eve@corp.com   | 203.0.113.40 | PasswordLogin | Success
 2025-10-25 10:35:00 | frank@corp.com | 203.0.113.50 | TeamsLogin | Success
 2025-10-25 10:40:00 | alice@corp.com | 203.0.113.10 | OneDriveSync | Success
