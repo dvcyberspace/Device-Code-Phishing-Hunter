@@ -4,7 +4,7 @@
 
 Device Code Phishing (DCP) is an emerging attack technique where attackers exploit OAuth / device-code authentication flows to trick users into entering verification codes on fake devices or malicious portals.
 
-This project simulates DCP attack logs and builds a **Python-based threat-hunting tool** that identifies suspicious events using rule-based analytics. It is designed for beginners in cybersecurity and is ideal for strengthening your resume, SOC skills, and Erasmus Mundus applications.
+This project simulates DCP attack logs and builds a **Python-based threat-hunting tool** that identifies suspicious events using log-based analytics.
 
 ---
 
@@ -23,7 +23,6 @@ The detection script identifies patterns such as:
 
 * **Python 3+**
 * `json` for log parsing
-* `pandas` (optional)
 * Basic Windows terminal
 
 ---
@@ -69,9 +68,4 @@ The detection script identifies patterns such as:
       If matched: Raise alert      If not: ignore
              │
         Generate Report
-```
-## ⭐ **Support**
-
-If you like this project, please ⭐ the repo — it helps others find it!
-
 ---
